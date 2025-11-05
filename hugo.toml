@@ -21,7 +21,7 @@ author = "Nima Najvaei"
 description = "وبلاگ شخصی"
 keywords = "وبلاگ, توسعه‌دهنده, لینوکس, شخصی"
 info = ["Linux Arch", "Tech"]
-avatarURL = "images/avatar.jpg"
+avatarURL = "images/icon.png"
 dateFormat = "2 January 2006"
 since = 2025
 commit = "https://github.com/Im-Anone/najvaei-blog/tree/"
@@ -33,6 +33,12 @@ customCSS = ["css/custom.css"]   # فایل CSS سفارشی
 customSCSS = []
 customJS = []
 customRemoteJS = []
+faviconSVG = "/images/icon.png"
+favicon_32 = "/images/icon.png"
+favicon_16 = "/images/icon.png"
+touchicon  = "/images/icon.png"
+mask_icon  = "/images/icon.png"
+
 
 # شبکه‌های اجتماعی
 [[params.social]]

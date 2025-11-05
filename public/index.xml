@@ -1,26 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Nima Najvaei</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Nima Najvaei</description>
-    <generator>Hugo</generator>
-    <language>fa</language>
-    <lastBuildDate>Wed, 05 Nov 2025 18:29:52 +0330</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>لینوکس چیست ؟</title>
-      <link>http://localhost:1313/posts/linux/</link>
-      <pubDate>Wed, 05 Nov 2025 18:29:52 +0330</pubDate>
-      <guid>http://localhost:1313/posts/linux/</guid>
-      <description>&lt;h1 id=&#34;test-message&#34;&gt;&#xA;  Test message&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#test-message&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;</description>
-    </item>
-    <item>
-      <title>Hello Internet!</title>
-      <link>http://localhost:1313/posts/hello-world/</link>
-      <pubDate>Wed, 05 Nov 2025 00:00:00 +0330</pubDate>
-      <guid>http://localhost:1313/posts/hello-world/</guid>
-      <description>&lt;h3 id=&#34;today-i-created-a-website-via-hugo&#34;&gt;&#xA;  Today I created a website via Hugo&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#today-i-created-a-website-via-hugo&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;h3 id=&#34;this-is-my-message&#34;&gt;&#xA;  This is my message&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#this-is-my-message&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;h1 id=&#34;hello-internet&#34;&gt;&#xA;  Hello Internet&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#hello-internet&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nima Najvaei</title><link>https://najvaei.ir/</link><description>Recent content on Nima Najvaei</description><generator>Hugo</generator><language>fa</language><lastBuildDate>Wed, 05 Nov 2025 18:29:52 +0330</lastBuildDate><atom:link href="https://najvaei.ir/index.xml" rel="self" type="application/rss+xml"/><item><title>گنو/لینوکس چیست ؟</title><link>https://najvaei.ir/posts/linux/</link><pubDate>Wed, 05 Nov 2025 18:29:52 +0330</pubDate><guid>https://najvaei.ir/posts/linux/</guid><description>&lt;h3 id="گنولینوکس-چیست"&gt;
+ گنو/لینوکس چیست؟
+ &lt;a class="heading-link" href="#%da%af%d9%86%d9%88%d9%84%db%8c%d9%86%d9%88%da%a9%d8%b3-%da%86%db%8c%d8%b3%d8%aa"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p&gt;گنو یک سیستم عامل آزاد و مخفف &amp;ldquo;گنو یونیکس نیست&amp;rdquo; (GNU&amp;rsquo;s Not Unix)است، دلیل این نام به خاطر این بود که طراحی گنو شبیه یونیکس است و همچنین گنو جزء نرم‌افزارهای آزاد بوده و از کد های یونیکس استفاده نمیکند. ریچارد استالمن موسس بنیاد نرم‌افزار آزاد، کار خود در دانشگاه MIT را در سال 1971 آغاز کرد. در آن زمان نرم‌افزارهای آزاد، همکاری برنامه‌نویسان و کاربران، به اشتراک‌گذاری کد و &amp;hellip; رواج داشت.
+تا اینکه در دهه‌ی 80 میلادی انحصار و تجاری شدن نرم‌افزارها شدت گرفت. پروژه‌ی گنو جنبشی بر علیه محدودیت‌ها و موانع اعمال‌شده توسط صاحبان نرم‌افزارهای انحصاری و با هدف طراحی نرم‌افزار آزاد بود. قدم اول ایجاد یک سیستم عامل آزاد بود. طراحی گنو در سال 1983 میلادی توسط ریچارد استالمن اغاز شد؛ استالمن همچنین در سال 1985 بنیاد نرم‌افزار آزاد را بیشتر با هدف جذب سرمایه برای توسعه‌ی گنو تاسیس کرد.&lt;/p&gt;</description></item><item><title>Hello Internet!</title><link>https://najvaei.ir/posts/hello-world/</link><pubDate>Wed, 05 Nov 2025 00:00:00 +0330</pubDate><guid>https://najvaei.ir/posts/hello-world/</guid><description>&lt;h3 id="today-i-created-a-website-via-hugo"&gt;
+ Today I created a website via Hugo
+ &lt;a class="heading-link" href="#today-i-created-a-website-via-hugo"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h3&gt;
+&lt;h3 id="this-is-my-message"&gt;
+ This is my message
+ &lt;a class="heading-link" href="#this-is-my-message"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h3&gt;
+&lt;h1 id="hello-internet"&gt;
+ Hello Internet
+ &lt;a class="heading-link" href="#hello-internet"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;</description></item><item><title/><link>https://najvaei.ir/posts/images/linux-symbol.png/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://najvaei.ir/posts/images/linux-symbol.png/</guid><description/></item></channel></rss>
