@@ -41,37 +41,37 @@ icon = "fa-brands fa-github fa-2x"
 weight = 1
 url = "https://github.com/Im-Anone/"
 
-[[params.social]]
-name = "Twitter"
-icon = "fa-brands fa-x-twitter fa-2x"
-weight = 2
-url = "https://twitter.com/NimaNajvaei/"
+#[[params.social]]
+#name = "Twitter"
+#icon = "fa-brands fa-x-twitter fa-2x"
+#weight = 2
+#url = "https://twitter.com/NimaNajvaei/"
 
 [[params.social]]
 name = "X.com"
 icon = "fa-brands fa-x-twitter fa-2x"
-weight = 3
-url = "https://x.com/NimaNajvaei/"
+weight = 2
+url = "https://x.com/najvaei/"
 
 [[params.social]]
 name = "Discord"
 icon = "fa-brands fa-discord fa-2x"
-weight = 4
+weight = 3
 url = "https://discord.com/users/NimaNajvaei"
 
 [[params.social]]
 name = "Telegram"
 icon = "fa-brands fa-telegram fa-2x"
-weight = 5
+weight = 4
 url = "https://t.me/NimaNajvaei"
 
-[[params.social]]
-name = "RSS"
-icon = "fa-solid fa-rss fa-2x"
-weight = 6
-url = "https://najvaei.ir/index.xml"
-rel = "alternate"
-type = "application/rss+xml"
+#[[params.social]]
+#name = "RSS"
+#icon = "fa-solid fa-rss fa-2x"
+#weight = 6
+#url = "https://najvaei.ir/index.xml"
+#rel = "alternate"
+#type = "application/rss+xml"
 
 [taxonomies]
 category = "categories"
