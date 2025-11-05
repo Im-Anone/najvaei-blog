@@ -1,4 +1,4 @@
-name: Deploy Hugo to cPanel
+name: Build and Deploy Hugo Site
 
 on:
   push:
@@ -6,28 +6,28 @@ on:
       - main
 
 jobs:
-  build-and-deploy:
+  build-deploy:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-    - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2
-      with:
-        hugo-version: '0.112.7'
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.114.3'
 
-    - name: Build Hugo site
-      run: hugo --minify
+      - name: Build Hugo site
+        run: hugo --minify
 
-    - name: Upload to cPanel
-      uses: samkirkland/ftp-deploy-action@v4.1.0
-      with:
-        server: ${{ secrets.CPANEL_HOST }}
-        username: ${{ secrets.CPANEL_USER }}
-        password: ${{ secrets.CPANEL_PASS }}
-        local-dir: public/
-        server-dir: /home/najvae/public_html/
-        protocol: ftps
+      - name: FTP Deploy
+        uses: SamKirkland/FTP-Deploy-Action@v4.1.0
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: public/
+          server-dir: /home/najvae/public_html/
+          protocol: ftps
 
