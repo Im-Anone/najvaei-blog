@@ -28,13 +28,11 @@ jobs:
           server: ftp.najvaei.ir
           username: najvae
           password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftp
+          port: 21
           local-dir: ./public/
           server-dir: /home/najvae/public_html/
-          protocol: ftps
-          port: 21
-          passive: true
           security: loose
-          timeout: 120000
           exclude: |
             **/.git*
             **/.github*
