@@ -1,0 +1,102 @@
+baseURL = "https://najvaei.ir/"
+title = "Nima Najvaei"
+theme = "hugo-coder"
+languageCode = "fa"
+defaultContentLanguage = "fa"
+enableEmoji = true
+
+[pagination]
+pagerSize = 6
+
+[markup]
+[markup.highlight]
+noClasses = false
+
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+
+[params]
+author = "Nima Najvaei"
+description = "وبلاگ شخصی"
+keywords = "وبلاگ, توسعه‌دهنده, لینوکس, شخصی"
+info = ["Linux Arch", "Tech"]
+avatarURL = "images/avatar.jpg"
+dateFormat = "2 January 2006"
+since = 2025
+commit = "https://github.com/Im-Anone/najvaei-blog/tree/"
+rtl = true
+colorScheme = "auto"
+hideColorSchemeToggle = false
+maxSeeAlsoItems = 5
+customCSS = ["css/custom.css"]   # فایل CSS سفارشی
+customSCSS = []
+customJS = []
+customRemoteJS = []
+
+# شبکه‌های اجتماعی
+[[params.social]]
+name = "Github"
+icon = "fa-brands fa-github fa-2x"
+weight = 1
+url = "https://github.com/Im-Anone/"
+
+[[params.social]]
+name = "Twitter"
+icon = "fa-brands fa-x-twitter fa-2x"
+weight = 2
+url = "https://twitter.com/NimaNajvaei/"
+
+[[params.social]]
+name = "X.com"
+icon = "fa-brands fa-x-twitter fa-2x"
+weight = 3
+url = "https://x.com/NimaNajvaei/"
+
+[[params.social]]
+name = "Discord"
+icon = "fa-brands fa-discord fa-2x"
+weight = 4
+url = "https://discord.com/users/NimaNajvaei"
+
+[[params.social]]
+name = "Telegram"
+icon = "fa-brands fa-telegram fa-2x"
+weight = 5
+url = "https://t.me/NimaNajvaei"
+
+[[params.social]]
+name = "RSS"
+icon = "fa-solid fa-rss fa-2x"
+weight = 6
+url = "https://najvaei.ir/index.xml"
+rel = "alternate"
+type = "application/rss+xml"
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
+
+# منوهای فارسی
+[[languages.fa.menu.main]]
+name = "درباره من"
+weight = 1
+url = "about/"
+
+[[languages.fa.menu.main]]
+name = "وبلاگ"
+weight = 2
+url = "posts/"
+
+[[languages.fa.menu.main]]
+name = "پروژه‌ها"
+weight = 3
+url = "projects/"
+
+[[languages.fa.menu.main]]
+name = "تماس با من"
+weight = 5
+url = "contact/"
+
