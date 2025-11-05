@@ -1,15 +1,16 @@
-name: build-and-deploy
+name: Build and Deploy Hugo Site
+
 on:
   push:
     branches:
-      - main  # یا branch مورد نظر
+      - main  # یا هر برنچی که استفاده می‌کنی
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout Repository
         uses: actions/checkout@v3
 
       - name: Setup Hugo
@@ -18,10 +19,10 @@ jobs:
           hugo-version: '0.128.0'
           extended: true
 
-      - name: Build
+      - name: Build Website
         run: hugo --minify
 
-      - name: Deploy to FTP
+      - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.1.0
         with:
           server: ${{ secrets.FTP_SERVER }}
